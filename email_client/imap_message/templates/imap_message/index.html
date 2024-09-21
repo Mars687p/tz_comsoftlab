@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'imap_message/css/index.css' %}">
+    <title>Почта</title>
+</head>
+<body>
+    <div class="progress-div">
+        <progress id="progress-bar" value="0" max="100"></progress>
+        <p id="progress-info">Обработано</p>
+    </div>
+
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Тема письма</th>
+                    <th>Текст сообщения</th>
+                    <th>Дата отправки</th>
+                    <th>Дата получения</th>
+                    <th>Список файлов</th>
+                    <th>Почтовый ящик</th>
+
+                </tr>
+            </thead>
+            <tbody id="table_body">
+                {% for message in object_list %}
+                    {% include 'imap_message/row_table.html' %}
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+</body>
+<script type="text/javascript" src="{% static 'imap_message/js/index.js' %}"></script>
+</html>

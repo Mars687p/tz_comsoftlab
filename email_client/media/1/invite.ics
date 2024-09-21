@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Europe/Moscow
+X-LIC-LOCATION:Europe/Moscow
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+TZNAME:GMT+3
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Moscow:20240912T160000
+DTEND;TZID=Europe/Moscow:20240912T170000
+DTSTAMP:20240909T110257Z
+ORGANIZER;CN=Evgeniya Taranenko:mailto:e.taranenko@cdnvideo.com
+UID:2ra5hvtposlhh6o5qsd9kskdlt@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Evgeniya Taranenko;X-NUM-GUESTS=0:mailto:e.taranenko@cdnvideo.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Yaroslav Makarov;X-NUM-GUESTS=0:mailto:y.makarov@cdnvideo.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Leonid Dolgirev;X-NUM-GUESTS=0:mailto:l.dolgirev@cdnvideo.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Vladislav Sotnikov;X-NUM-GUESTS=0:mailto:v.sotnikov@cdnvideo.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=mars687p@yandex.ru;X-NUM-GUESTS=0:mailto:mars687p@yandex.ru
+X-GOOGLE-CONFERENCE:https://meet.google.com/hvq-vwpq-nij
+X-MICROSOFT-CDO-OWNERAPPTID:1725820238
+CREATED:20240909T110255Z
+DESCRIPTION:<a href="https://github.com/Mars687p/test_cdn" target="_blank" 
+ dir="auto">https://github.com/Mars687p/test_cdn</a>\n\n-::~:~::~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nПрисое
+ диниться через Google Meet: https://meet.google.com/hvq-vwpq-nij.\nВы также
+  можете позвонить по телефону: (RU) +7 499 951-64-31 PIN-код: 8023301347525
+ #\nДополнительные номера телефонов: https://tel.meet/hvq-vwpq-nij?pin=80233
+ 01347525&hs=7\n\nПодробнее о Google Meet по ссылке: https://support.google.
+ com/a/users/answer/9282720\n\nНе изменяйте данные в этом разделе.\n-::~:~::
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:
+ ~::-
+LAST-MODIFIED:20240909T110255Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Чуркин Владимир
+TRANSP:OPAQUE
+ATTACH;FILENAME=Чуркин_Владимир.pdf;FMTTYPE=application/pdf:https://drive.g
+ oogle.com/open?id=1x5bHMAQxNa3nWOszN9lP1zYLSLZK-t48
+BEGIN:VALARM
+ACTION:EMAIL
+DESCRIPTION:This is an event reminder
+SUMMARY:Alarm notification
+ATTENDEE:mailto:mars687p@yandex.ru
+TRIGGER:-P0DT0H10M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,12 @@
+<tr>
+    <td>{{message.title|default_if_none:"Без темы"}}</td>
+    <td>{{message.body|default_if_none:""|truncatewords_html:10}}</td>
+    <td>{{message.send_time}}</td>
+    <td>{{message.recieve_time}}</td>
+    <td>
+        {% for i in message.filesmodel_set.values_list %}
+            <span>{{i.1}}</span>
+        {% endfor %}
+    </td>
+    <td>{{message.config_user}}</td>
+</tr>
